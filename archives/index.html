@@ -19,7 +19,7 @@
     <link rel="alternative" href="/atom.xml" title="WL" type="application/atom+xml">
   
   
-    <link rel="icon" href="images/touxiang.jpg">
+    <link rel="icon" href="/images/touxiang.jpg">
   
   <link rel="stylesheet" type="text/css" href="/./main.507b3a.css">
   <style type="text/css">
@@ -43,7 +43,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="" class="profilepic">
-			<img src="images/touxiang.jpg" class="js-avatar">
+			<img src="/images/touxiang.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="">鹿先生</a></h1>
@@ -55,7 +55,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/相册">相册</a></li>
+				<li><a href="/tags/相册/">相册</a></li>
 	        
 			</ul>
 		</nav>
@@ -93,7 +93,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="images/touxiang.jpg" class="js-avatar">
+				<img src="/images/touxiang.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">鹿先生</h1>
@@ -123,7 +123,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/相册">相册</a></li>
+					<li style="width: 50%"><a href="/tags/相册/">相册</a></li>
 		        
 				</ul>
 			</nav>
@@ -168,6 +168,17 @@
 
         <div class="article-info info-on-right">
           
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">相册</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
           
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
@@ -274,6 +285,10 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">相册</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
